@@ -1,0 +1,97 @@
+
+/*
+Recrea una web de  los años 90. -- la mayoria eran blogs  o foros
+- fondos blancos o en colores azules/gris
+- fuente --> times new roman ---> 
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display SC', serif;
+- no menus o muy basicos
+- casi todo en tablas
+- banner basico con titulo 
+- incorporaban siempre la firma
+*/
+*{
+    background-color: rgb(245, 245, 246);
+    margin: 5px;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    border-radius: 10px;
+    text-align: justify;
+    
+}
+
+header{
+   columns: 45%;
+   width: 100%;
+   padding-bottom: 30px;
+   clear: both;
+}
+img{
+    width: 150px;
+    float: left;
+}
+footer{
+    padding-top: 30px;
+    width: 100%; 
+    clear: both;
+}
+h5{
+    text-align: center;
+    width: 100%;
+    color: blue;
+    text-shadow: -5px 5px 5px  rgb(0, 204, 255);
+}
+
+
+h1{
+    width: 80%;
+    float: center;
+    text-align: center;
+    padding-top: 25px;
+    text-shadow: -5px 5px 5px  rgb(0, 204, 255);
+    color: blue;
+    font-family: 'Playfair Display SC', serif;
+}
+h3{
+    color: blue;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+}
+p{
+    font-size:x-small;
+    text-align: justify;
+    clear: both;
+}
+.p2{
+    padding-top: 20px;
+}
+span{
+    font-style: italic;
+}
+
+
+div{
+    padding: 20px;
+    width: 30%;
+    float: left;
+}
+#pelis{
+  
+    border-color: blue;
+    border: solid;
+    font-size: x-small;
+   
+}
+#canciones{
+ 
+    border-color: blue;
+    border: solid;
+    font-size: x-small;
+    
+}
+#personajes{
+  
+    border-color: blue;
+    border: solid;
+    font-size: x-small;
+   
