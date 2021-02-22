@@ -1,0 +1,93 @@
+
+/* ----------> general <---------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0PX;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ----------> header footer y menu <---------------*/
+header{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    background-color: #333333b4;
+    color:aliceblue;
+    padding-top: 5px;
+}
+#footer{
+    columns: 2; 
+    width: 20%;
+    display: inline-block;
+}
+
+.m1 a{
+    text-decoration: none;
+    float:left;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(37, 35, 35);
+    padding:10px;
+    width: 20%;
+    font-size: smaller;
+}
+.m1 a:hover{
+    background-color: #333333;
+    color: aliceblue;
+}
+
+/* ----------> main <---------------*/
+
+main{
+    height: 700px;
+    
+}
+.main {
+    columns: 30%;
+    padding: 20px;
+    width: 100%;
+    clear: both;
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+#texto{
+    margin-top: 70px;
+    padding: 20px;
+    width: 50%;
+    float: left;
+   
+    text-align: justify;
+    color:rgb(37, 35, 35);
+    font-family:'Montserrat', sans-serif;
+    font-size: small;
+}
+#texto p{
+    padding: 10px;
+}
+
+#img1{
+   width: 400px;
+   float: right;
+}
+
+.enlaces{
+    text-decoration: none;
+}
+
+
+/* ----------> separadores <---------------*/
